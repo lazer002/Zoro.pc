@@ -9,50 +9,50 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/x-icon" href="image/logo.gif">
-  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
 
 
 
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-black navbar-dark fixed-top py-0">
+  <nav class="navbar navbar-expand-lg bg-black navbar-dark fixed-top py-0 animation_nav">
     <div class="container py-2">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand mx-auto lol tabs" href="index.html"><img src="image/logo.gif" alt="" class="img-fluid">ⱫØⱤØ</a>
+      <a class="navbar-brand mx-auto lol active " href="index.html"><img src="image/logo.gif" alt="" class="img-fluid">ⱫØⱤØ</a>
 
       <div class="collapse navbar-collapse mx-lg-5 mx-sm-0" id="navbarText">
-        <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+        <ul class="navbar-nav mb-2 mb-lg-0 mx-auto ">
 
-          <li class="nav-item mx-4 lol tabs">
-            <a class="nav-link active" aria-current="page" href="pc.html">PC</a>
+          <li class="nav-item mx-4 lol ">
+            <a class="nav-link" aria-current="page" href="pc.html">PC</a>
           </li>
-          <li class="nav-item mx-4 lol tabs">
+          <li class="nav-item mx-4 lol ">
             <a class="nav-link" href="console.html">CONTROLLER</a>
           </li>
-          <li class="nav-item mx-4 lol tabs">
+          <li class="nav-item mx-4 lol ">
             <a class="nav-link" href="Laptop.html">LAPTOP</a>
           </li>
-          <li class="nav-item mx-4 lol tabs">
+          <li class="nav-item mx-4 lol ">
             <a class="nav-link" href="accessories.html">ACCESSORIES</a>
           </li>
-          <li class="nav-item mx-4 lol tabs">
+          <li class="nav-item mx-4 lol ">
             <a class="nav-link" href="service.html">SERVICE</a>
           </li>
-          <li class="nav-item mx-4 lol tabs">
+          <li class="nav-item mx-4 lol ">
             <a class="nav-link" href="community.html">COMMUNITY</a>
           </li>
           <div class="collapse " id="collapseExample">
-            <div class="card card-body bg-black">
-              <input type="search" name="" class="bcolor lol rounded-2 out">
+            <div class="card card-body bg-black ">
+              <input type="search" name="" class="bcolor lol rounded-2 text-light out">
             </div>
           </div>
-          <li class=" mx-4 "><a class="btn py-1 " data-bs-toggle="collapse" href="#collapseExample" role="button"
+          <li class=" mx-4 "><a class="btn py-1" data-bs-toggle="collapse" href="#collapseExample" role="button"
               aria-expanded="false" aria-controls="collapseExample">
-              <img src="image/search.png" width="15" alt="" class=" lol tabs"></a>
+              <img src="image/search.png" width="15" alt="" class=" lol "></a>
 
           </li>
         </ul>
@@ -61,7 +61,7 @@
     </div>
   </nav>
 
-  <div id="carouselExampleSlidesOnly" class="carousel-fade" data-bs-ride="carousel">
+  <div id="carouselExampleSlidesOnly" class="carousel-fade animation_out" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="2000">
         <img src="pc/bg/bg-5.webp.png" class="d-block w-100" alt="...">
@@ -81,9 +81,9 @@
 
   <!-- multicarousel -->
 
-  <div class="container text-center my-5">
-    <h1 class="fw-bold fcolor py-4 lulu 1">HOT PRODUCTS</h1>
-    <div class="row mx-auto my-auto justify-content-center 2">
+  <div class="container text-center my-5 animation_out">
+    <h1 class="fw-bold fcolor py-4 animation_out">HOT PRODUCTS</h1>
+    <div class="row mx-auto my-auto">
       <div id="recipeCarousel" class="carousel slide ala " data-bs-ride="carousel">
         <div class="carousel-inner" role="listbox">
           <div class="carousel-item active alla" data-bs-interval="2000">
@@ -229,32 +229,32 @@
   <!--left list   -->
   <div class="container">
     <div class="row">
-      <div class="col-lg-3 border border-success rounded-2 bg-black me-2 mb-2 l31">
+      <div class="col-lg-3 border border-success rounded-2 bg-black me-2 mb-2 animation_left">
         <button class="btn  accordion-toggle lol" type="button" data-bs-toggle="collapse" data-bs-target="#acco"
           aria-controls="acco" aria-expanded="true" aria-label="Toggle-navigation">
-          <h2 class="py-3 fw-bold fcolor ">FILTER <img src="image/down.png" alt=""></h6>
+          <h2 class="py-3 fw-bold fcolor animation_out">FILTER <img src="image/down.png" alt=""></h6>
         </button>
 
         <div class="collapse accordion-collapse show" id="acco">
           <div class="card bg-black text-light py-0">
-            <div class="card-header border border-success rounded-2">
+            <div class="card-header border border-success rounded-2 animation_out">
               <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
                 <h6 class="fw-bold my-0 fcolor lol">Keywords</h6>
               </a>
             </div>
             <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
               <div class="card-body">
-                <input type="search" class="bg-dark w-100 text-light rounded-2 out">
+                <input type="search" class="bg-dark w-100 text-light rounded-2 out animation_out">
               </div>
             </div>
           </div>
           <div class="card bg-black text-light py-0">
-            <div class="card-header border border-success rounded-2">
+            <div class="card-header border border-success rounded-2 animation_out">
               <a class="collapsed btn py-0" data-bs-toggle="collapse" href="#collapseTwo">
                 <h6 class="fw-bold  fcolor lol"> Manufacturers</h6>
               </a>
             </div>
-            <div id="collapseTwo" class="collapse show" data-bs-parent="#accordion">
+            <div id="collapseTwo" class="collapse show animation_out" data-bs-parent="#accordion">
               <div class="card-body px-3 py-0">
                 <div class=" border-2 border-bottom  text-left">
                   <input type="checkbox" class="me-2"><label class=" h6">RAZER</label>
@@ -306,7 +306,7 @@
 
             </div>
           </div>
-          <div class="card bg-black text-light py-0">
+          <div class="card bg-black text-light py-0 animation_out">
             <div class="card-header  border border-success rounded-2 py-0">
               <a class="collapsed btn " data-bs-toggle="collapse" href="#collapseThree">
                 <h6 class="fw-bold  fcolor lol">PRICE</h6>
@@ -323,7 +323,7 @@
 
             </div>
           </div>
-          <div class="card bg-black text-light py-0">
+          <div class="card bg-black text-light py-0 animation_out">
             <div class="card-header  border border-success rounded-2 py-0">
               <a class="collapsed btn" data-bs-toggle="collapse" href="#collapsethree">
                 <h6 class="fw-bold  fcolor lol"> CABINET SIZE</h6>
@@ -358,7 +358,7 @@
             </div>
           </div>
 
-          <div class="card bg-black text-light py-0">
+          <div class="card bg-black text-light py-0 animation_out">
             <div class="card-header  border border-success rounded-2 py-0">
               <a class="collapsed btn" data-bs-toggle="collapse" href="#collapse4">
                 <h6 class="fw-bold  fcolor lol"> MOTHERBOARD</h6>
@@ -405,7 +405,7 @@
           </div>
 
 
-          <div class="card bg-black text-light py-0">
+          <div class="card bg-black text-light py-0 animation_out">
             <div class="card-header  border border-success rounded-2 py-0">
               <a class="collapsed btn" data-bs-toggle="collapse" href="#collapse1">
                 <h6 class="fw-bold  fcolor lol"> STYLING</h6>
@@ -450,7 +450,7 @@
               </div>
             </div>
           </div>
-          <div class="card bg-black text-light py-0 mb-2">
+          <div class="card bg-black text-light py-0 mb-2 animation_out">
             <div class="card-header  border border-success rounded-2 py-0">
               <a class="collapsed btn" data-bs-toggle="collapse" href="#collapse2">
                 <h6 class="fw-bold  fcolor lol"> MEMORY TYPE</h6>
@@ -501,8 +501,8 @@
 
 
       <!-- right side -->
-      <div class="col-lg-8 border border-success rounded-2 bg-black mb-2 l32">
-        <div class="row p-4 text-end">
+      <div class="col-lg-8 border border-success rounded-2 bg-black mb-2 animation_right">
+        <div class="row p-4 text-end animation_out">
           <div class="col-12">
 
             Sort By
@@ -519,9 +519,9 @@
         </div>
 
         <div class="row text-center">
-          <div class="card col-lg-4 col-md-6  bg-transparent border border-0 lol l25">
+          <div class="card col-lg-4 col-md-6  bg-transparent border border-0  animation_ot">
             <a href="product.html" class="text-decoration-none text-light">
-              <div id="carouselExampleSlidesOnly" class=" carousel-fade" data-bs-ride="carousel">
+              <div id="carouselExampleSlidesOnly" class=" carousel-fade lol" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="2000">
                     <img src="product/p1-PhotoRoom.png-PhotoRoom.png" class="d-block img-fluid" alt="...">
@@ -548,9 +548,9 @@
             </a>
           </div>
 
-          <div class="card col-lg-4 col-md-6 bg-transparent lol border border-0 l26">
+          <div class="card col-lg-4 col-md-6 bg-transparent border border-0 animation_ot">
             <a href="product.html" class="text-decoration-none text-light">
-              <div id="carouselExampleSlidesOnly" class=" carousel-fade" data-bs-ride="carousel">
+              <div id="carouselExampleSlidesOnly" class=" carousel-fade lol" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="2000">
                     <img src="pc/1-PhotoRoom.png-PhotoRoom.png" class="d-block img-fluid" alt="...">
@@ -577,9 +577,9 @@
             </a>
           </div>
 
-          <div class="card col-lg-4  col-md-6 bg-transparent border border-0 lol l27">
+          <div class="card col-lg-4  col-md-6 bg-transparent border border-0 animation_ot">
             <a href="product.html" class="text-decoration-none text-light">
-              <div id="carouselExampleSlidesOnly" class=" carousel-fade" data-bs-ride="carousel">
+              <div id="carouselExampleSlidesOnly" class=" carousel-fade lol" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="2000">
                     <img src="pc/7-PhotoRoom.png-PhotoRoom.png" class="d-block img-fluid" alt="...">
@@ -607,9 +607,9 @@
           </div>
 
           <!-- 2 row -->
-          <div class="card col-lg-4 col-md-6 bg-transparent border border-0 lol l25">
+          <div class="card col-lg-4 col-md-6 bg-transparent border border-0 animation_ot">
             <a href="product.html" class="text-decoration-none text-light">
-              <div id="carouselExampleSlidesOnly" class=" carousel-fade" data-bs-ride="carousel">
+              <div id="carouselExampleSlidesOnly" class=" carousel-fade lol" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="2000">
                     <img src="pc/8-PhotoRoom.png-PhotoRoom.png" class="d-block img-fluid" alt="...">
@@ -636,9 +636,9 @@
             </a>
           </div>
 
-          <div class="card col-lg-4 col-md-6 bg-transparent lol border border-0 l26">
+          <div class="card col-lg-4 col-md-6 bg-transparent border border-0 animation_ot">
             <a href="product.html" class="text-decoration-none text-light">
-              <div id="carouselExampleSlidesOnly" class=" carousel-fade" data-bs-ride="carousel">
+              <div id="carouselExampleSlidesOnly" class=" carousel-fade lol" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="2000">
                     <img src="pc/11-PhotoRoom.png-PhotoRoom.png" class="d-block img-fluid" alt="...">
@@ -665,9 +665,9 @@
             </a>
           </div>
 
-          <div class="card col-lg-4 col-md-6 bg-transparent border border-0 lol l27">
+          <div class="card col-lg-4 col-md-6 bg-transparent border border-0 animation_ot">
             <a href="product.html" class="text-decoration-none text-light">
-              <div id="carouselExampleSlidesOnly" class=" carousel-fade" data-bs-ride="carousel">
+              <div id="carouselExampleSlidesOnly" class=" carousel-fade lol" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="2000">
                     <img src="pc/14-PhotoRoom.png-PhotoRoom.png" class="d-block img-fluid" alt="...">
@@ -696,9 +696,9 @@
 
 
           <!-- row 3 -->
-          <div class="card col-lg-4 col-md-6 bg-transparent border border-0 lol l25">
+          <div class="card col-lg-4 col-md-6 bg-transparent border border-0 animation_ot">
             <a href="product.html" class="text-decoration-none text-light">
-              <div id="carouselExampleSlidesOnly" class=" carousel-fade" data-bs-ride="carousel">
+              <div id="carouselExampleSlidesOnly" class=" carousel-fade lol" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="2000">
                     <img src="pc/17-PhotoRoom.png-PhotoRoom.png" class="d-block img-fluid" alt="...">
@@ -725,9 +725,9 @@
             </a>
           </div>
 
-          <div class="card col-lg-4 col-md-6 bg-transparent lol border border-0 l26">
+          <div class="card col-lg-4 col-md-6 bg-transparent border border-0 animation_ot">
             <a href="product.html" class="text-decoration-none text-light">
-              <div id="carouselExampleSlidesOnly" class=" carousel-fade" data-bs-ride="carousel">
+              <div id="carouselExampleSlidesOnly" class=" carousel-fade lol" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="2000">
                     <img src="pc/21-PhotoRoom.png-PhotoRoom.png" class="d-block img-fluid" alt="...">
@@ -754,9 +754,9 @@
             </a>
           </div>
 
-          <div class="card col-lg-4 col-md-6 bg-transparent border border-0 lol l27">
+          <div class="card col-lg-4 col-md-6 bg-transparent border border-0 animation_ot">
             <a href="product.html" class="text-decoration-none text-light">
-              <div id="carouselExampleSlidesOnly" class=" carousel-fade" data-bs-ride="carousel">
+              <div id="carouselExampleSlidesOnly" class=" carousel-fade lol " data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="2000">
                     <img src="pc/27-PhotoRoom.png-PhotoRoom.png" class="d-block img-fluid" alt="...">
@@ -785,9 +785,9 @@
 
 
           <!-- row4 -->
-          <div class="card col-lg-4 col-md-6 bg-transparent border border-0 lol l25">
+          <div class="card col-lg-4 col-md-6 bg-transparent border border-0 animation_ot">
             <a href="product.html" class="text-decoration-none text-light">
-              <div id="carouselExampleSlidesOnly" class=" carousel-fade" data-bs-ride="carousel">
+              <div id="carouselExampleSlidesOnly" class=" carousel-fade lol" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="2000">
                     <img src="pc/32-PhotoRoom.png-PhotoRoom.png" class="d-block img-fluid" alt="...">
@@ -814,9 +814,9 @@
             </a>
           </div>
 
-          <div class="card col-lg-4 col-md-6 bg-transparent lol border border-0 l26">
+          <div class="card col-lg-4 col-md-6 bg-transparent border border-0 animation_ot">
             <a href="product.html" class="text-decoration-none text-light">
-              <div id="carouselExampleSlidesOnly" class=" carousel-fade" data-bs-ride="carousel">
+              <div id="carouselExampleSlidesOnly" class=" carousel-fade lol" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="2000">
                     <img src="pc/35-PhotoRoom.png-PhotoRoom.png" class="d-block img-fluid" alt="...">
@@ -843,9 +843,9 @@
             </a>
           </div>
 
-          <div class="card col-lg-4 col-md-6 bg-transparent border border-0 lol l27">
+          <div class="card col-lg-4 col-md-6 bg-transparent border border-0 animation_ot">
             <a href="product.html" class="text-decoration-none text-light">
-              <div id="carouselExampleSlidesOnly" class=" carousel-fade" data-bs-ride="carousel">
+              <div id="carouselExampleSlidesOnly" class=" carousel-fade lol" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="2000">
                     <img src="pc/39-PhotoRoom.png-PhotoRoom.png" class="d-block img-fluid" alt="...">
@@ -872,7 +872,7 @@
             </a>
           </div>
 
-          <ul class="pagination justify-content-center mt-5 ">
+          <ul class="pagination justify-content-center mt-5 animation_ot">
             <li class="page-item"><a class="page-link bcolor text-dark" href="#">Previous</a></li>
             <li class="page-item"><a class="page-link bcolor text-dark" href="#">1</a></li>
             <li class="page-item"><a class="page-link bcolor text-dark" href="#">2</a></li>
@@ -886,8 +886,8 @@
   </div>
   <!-- bottom carousel -->
   <div class="container text-center my-5">
-    <h1 class="fw-bold fcolor py-4 l25">RELATED PRODUCTS</h1>
-    <div class="row mx-auto my-auto justify-content-center l26">
+    <h1 class="fw-bold fcolor py-4 animation_out">RELATED PRODUCTS</h1>
+    <div class="row mx-auto my-auto animation_out">
       <div id="recipeCarousel3" class="carousel slide ala" data-bs-ride="carousel">
         <div class="carousel-inner" role="listbox">
           <div class="carousel-item active alla " data-bs-interval="2000">
@@ -1035,7 +1035,7 @@
   <!-- footer -->
   <div class="container-fluid  border-top border-success text-light mt-4 ">
     <div class="row my-4">
-      <div class="col-lg-2 col-sm-4 py-4 l25">
+      <div class="col-lg-2 col-sm-4 py-4 animation_out">
         <ul class="footer">
           <h5 class=" fcolor">SHOP</h5>
           <li>Zoro Store</li>
@@ -1047,7 +1047,7 @@
         </ul>
       </div>
 
-      <div class="col-lg-2 col-sm-4 py-4 lala14">
+      <div class="col-lg-2 col-sm-4 py-4 animation_out">
         <ul class="footer">
           <h5 class=" fcolor">Explore</h5>
           <li>Technology</li>
@@ -1059,7 +1059,7 @@
         </ul>
       </div>
 
-      <div class="col-lg-2 col-sm-4  py-4 l27">
+      <div class="col-lg-2 col-sm-4  py-4 animation_out">
         <ul class="footer">
           <h5 class=" fcolor">Support</h5>
           <li>Warranty</li>
@@ -1071,7 +1071,7 @@
         </ul>
       </div>
 
-      <div class="col-lg-2 col-sm-4 py-4 lala15">
+      <div class="col-lg-2 col-sm-4 py-4 animation_out">
         <ul class="footer">
           <h5 class=" fcolor">About</h5>
           <li>Blog</li>
@@ -1083,7 +1083,7 @@
         </ul>
       </div>
 
-      <div class="col-lg-4 col-sm-4 py-4 lala12">
+      <div class="col-lg-4 col-sm-4 py-4 animation_out">
         <ul class="footer border-start border-dark border-3 ">
           <h5 class=" fcolor">BE THE FIRST TO KNOW</h5>
           <li>Get special offers, exclusive product news, and event <br> info straight to your inbox.</li>
@@ -1094,11 +1094,11 @@
             <button class="btn btn-success lol">signup</button>
           </label>
           <li class="mt-1">
-            <a href=""><img src="image/fb.png" alt="" class=" lol lala19"></a>
-            <a href=""> <img src="image/ins.png" alt="" class=" lol lala19"></a>
-            <a href=""> <img src="image/lin.png" alt="" class=" lol lala19"></a>
-            <a href=""> <img src="image/twi.png" alt="" class=" lol lala19"></a>
-             <a href=""><img src="image/yt.png" alt="" class=" lol lala19"></a>
+            <a href=""><img src="image/fb.png" alt="" class="animation_out"></a>
+            <a href=""> <img src="image/ins.png" alt="" class="animation_out"></a>
+            <a href=""> <img src="image/lin.png" alt="" class="animation_out"></a>
+            <a href=""> <img src="image/twi.png" alt="" class="animation_out"></a>
+             <a href=""><img src="image/yt.png" alt="" class="animation_out"></a>
           </li>
         </ul>
       </div>
@@ -1187,7 +1187,7 @@
     </div>
   </div>
 
-  <div class="container-fluid px-5 z">
+  <div class="container-fluid px-5 z animation_out">
 
     <div class="row border-top border-success pt-2">
 
@@ -1220,11 +1220,6 @@
 
 
 
-
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
   <script>let items = document.querySelectorAll('.ala .alla')
 
     items.forEach((el) => {
@@ -1241,63 +1236,25 @@
       }
     })
 
-    $(document).ready(function(){
-    $(".1").addClass("animate__animated animate__fadeInDown")
-    $(".2").addClass("animate__animated animate__fadeInUp")
-    $(".tabs").addClass("animate__animated animate__bounceIn")
+    ScrollReveal({ reset: false,
+distance:"60px",
+duration:2500,
+delay:400});
 
- 
+ScrollReveal().reveal('.animation_nav', { delay: 200,origin:'top',interval:200 });
+ScrollReveal().reveal('.animation_in', { delay: 500,origin:'top',interval:200 });
+ScrollReveal().reveal('.animation_out', { delay: 500,origin:'bottom',interval:200 });
+ScrollReveal().reveal('.animation_ot', { delay: 700,origin:'bottom',interval:200 });
+ScrollReveal().reveal('.animation_left', { delay: 500,origin:'left',interval:200 });
+ScrollReveal().reveal('.animation_right', { delay: 500,origin:'right',interval:200 });
   
   
-  $(window).scroll(function(){
-    var wscall=$(document).scrollTop()
-    console.log(wscall)
- 
   
-   if((wscall>480)&&(wscall<770)){
-    $(".l25").addClass("animate__animated animate__fadeInUp")
-    $(".l26").addClass("animate__animated animate__fadeInUp")
-    $(".l27").addClass("animate__animated animate__fadeInUp")
-    $(".l31").addClass("animate__animated animate__bounceInLeft")
-    $(".l32").addClass("animate__animated animate__bounceInRight")
-     
-      }
-      else if((wscall>900)&&(wscall<1190)){
-        $(".l25").addClass("animate__animated animate__bounceInLeft")
-    $(".l26").addClass("animate__animated animate__fadeInUp")
-    $(".l27").addClass("animate__animated animate__bounceInRight")}
 
-    else if((wscall>1200)&&(wscall<1530)){
-        $(".l25").addClass("animate__animated animate__bounceInLeft")
-    $(".l26").addClass("animate__animated animate__fadeInUp")
-    $(".l27").addClass("animate__animated animate__bounceInRight")}
 
-    else if((wscall>1890)&&(wscall<2080)){
-        $(".l25").addClass("animate__animated animate__bounceInLeft")
-    $(".l26").addClass("animate__animated animate__fadeInUp")
-    $(".l27").addClass("animate__animated animate__bounceInRight")}
 
-    else if((wscall>2600)&&(wscall<2800)){
-        $(".l25").addClass("animate__animated animate__fadeInUp")
-    $(".l26").addClass("animate__animated animate__zoomIn")
-    }
-  
-  else if((wscall>3050)&&(wscall<3200)){
-      $(".l25").addClass("animate__animated animate__bounceInLeft")
-      $(".lala14").addClass("animate__animated animate__bounceInLeft")
-      $(".l27").addClass("animate__animated animate__flipInX ")
-      $(".lala15").addClass("animate__animated animate__bounceInRight ")
-      $(".lala12").addClass("animate__animated animate__bounceInRight ")
-      }
-  
-  else if((wscall>3200)&&(wscall<3300)){
-  $(".lala19").addClass("animate__animated animate__flip ")
-  
-  }
-  
-  
-  }) })
-  </script>
+</script>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
